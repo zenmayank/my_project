@@ -49,5 +49,5 @@ selected_cols = radio_mix.select("track_name","track_id","track_number","album_n
 selected_cols.write.format("bigquery") \
     .option("table", "project:dataset.table") \
     .option("temporaryGcsBucket", "temp-bucket-name") \
-    .mode("overwrite") \
+    .mode("append") \
     .save()
