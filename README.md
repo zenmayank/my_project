@@ -3,7 +3,7 @@ Hi Thanks for giving me this opportunity to solve this question.
 
 This made me aware that my GitHub repo isn't set up, so I'm starting the setup now.
 
-I haven't used Dataflow earlier, I was learning about it, and it supports Apache Beam pipeline or Python
+I haven't used Dataflow , while learning about it and got to know that it supports Apache Beam pipeline or Python
 If I want to run my Python code directly, first I need to containerise it again setup will take time, so keeping time in mind
 
 My approach is DAG will have 3 stages:
